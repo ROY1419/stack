@@ -7,7 +7,7 @@ import ShimmerButton from "@/components/ui/shimmer-button";
 import QuestionCard from "@/components/QuestionCard";
 import { UserPrefs } from "@/store/Auth";
 import Pagination from "@/components/Pagination";
-import Search from "./Search";
+import Search from "./quesName/Search";
 
 export default async function QuestionsPage({
     searchParams,
