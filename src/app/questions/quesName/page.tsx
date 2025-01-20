@@ -22,8 +22,8 @@ import { IconEdit } from "@tabler/icons-react";
 import Link from "next/link";
 import { Query } from "node-appwrite";
 import React from "react";
-import DeleteQuestion from "../DeleteQuestion";
-import EditQuestion from "../EditQuestion";
+import DeleteQuestion from "./DeleteQuestion";
+import EditQuestion from "./EditQuestion";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 
 const Page = async ({ params }: { params: { quesId: string; quesName: string } }) => {
